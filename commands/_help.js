@@ -19,8 +19,8 @@ const readmore = long.repeat(4001)
 const Secktor = require('../lib/commands')
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "help",
-            alias: ["menu"],
+            pattern: "الازااز",
+            alias: ["تتتتينيو"],
             desc: "Help list",
             category: "general",
             react: "✨",
@@ -94,7 +94,7 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "list",
+            pattern: "تتذايير",
             desc: "list menu",
             category: "general",
             react: "✅"
@@ -126,7 +126,7 @@ for (let i = 0; i < commands.length; i++)
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-        pattern: "owner",
+        pattern: "المطور",
         desc: "To find owner number",
         category: "general",
         react: "💜",
