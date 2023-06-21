@@ -2,7 +2,7 @@
   "name": "RAIZEL MINI-Md By RAIZEL",
   "description": "A Whatsapp md bot built in NodeJs to make experience better\n\t if Any Problem : https://chat.whatsapp.com/Gq8IPcT52JTLBb4QobQTJt",
   "logo": "https://telegra.ph/file/8410134d376d87fbd72aa.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "ZERO-TWO", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "RAIZEL],
   "success_url": "/",
   "stack": "container",
 "env": {
