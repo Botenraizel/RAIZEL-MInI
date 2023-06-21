@@ -4,22 +4,23 @@
 
  
   <p align="center">  
-  <a href="https://telegra.ph/file/8410134d376d87fbd72aa.jpg">
+  <a href="[https://telegra.ph/file/8410134d376d87fbd72aa.jpg](https://telegra.ph/file/3ce26ed1e482ff77a580b.jpg)">
     <img alt="secktor docs" height="300" src="https://telegra.ph/file/8410134d376d87fbd72aa.jpg">
     <h1 align="center"> ZERO_TWO-MD </h1>
   </a>
  
 ### `—◉ 🤖 رقم المطور 🤖`
 
-<a href="https://api.whatsapp.com/send/?phone=971553527240&text=عمي لايت&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/ZERO_TWO_OWNER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=967770500831&text=السلام عليكم&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/ZRAIZEL_OWNER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `—◉ 💟 قروب الدعم 💟`
 
-<a href="https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX" target="blank"><img src="https://img.shields.io/badge/𝗭𝗘𝗥𝗢_𝗧𝗪𝗢_𝐒𝐔𝐏𝐏𝐎𝐑𝐓(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX" target="blank"><img src="https://img.shields.io/badge/𝗭𝗘𝗥𝗢_𝗧𝗪𝗢_𝗖𝗛𝗔𝗧(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/Gq8IPcT52JTLBb4QobQTJt" target="blank"><img src="https://img.shields.io/badge/RAIZEL(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/Gq8IPcT52JTLBb4QobQTJt" target="blank"><img src="https://img.shields.io/badge/RAIZEL(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 ##
-***عمل [`فورك`](https://github.com/Raizel-2023/RAIZEL_BOT/fork)***
+***عمل [`فورك`]( 
+)***
 ##
 
 `ثم عمل سكان للباركود`
