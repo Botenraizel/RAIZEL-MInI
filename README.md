@@ -29,7 +29,7 @@
 </a>
 #### بعد تصوير الباركود قم برفع الملف علي الاسكريبت وقم بالضغط علي زر التنصيب علي هيروكو`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/wueveieieowoqowiwheheheududgeueydyeg/hegeieiwowitt817wjevehdudhjegeheueiwowowgdhdusueh)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Botenraizel/RAUZEL-MInI)
 ##
 
 ---
