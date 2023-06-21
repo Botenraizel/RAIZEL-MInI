@@ -6,7 +6,7 @@
   <p align="center">  
   <a href="[https://telegra.ph/file/3ce26ed1e482ff77a580b.jpg](https://telegra.ph/file/3ce26ed1e482ff77a580b.jpg)">
     <img alt="secktor docs" height="300" src="https://telegra.ph/file/3ce26ed1e482ff77a580b.jpg">
-    <h1 align="center"> ZERO_TWO-MD </h1>
+    <h1 align="center"> RAIZEL-MINI(MD) </h1>
   </a>
  
 ### `—◉ 🤖 رقم المطور 🤖`
