@@ -1,75 +1,39 @@
-  <p align="center">  
-  <a href="https://secktoruserbot.onrender.com/">
-    <img alt="secktor docs" height="300" src="https://secktoruserbot.onrender.com/main.jpg">
-    <h1 align="center">Secktor MD Whatsapp bot</h1>
-  </a>
-</p>
-   
-<p align="center">
+  ## ***التنصيب [`يمكنك التنصيب على هيريكو`]( https://dashboard.heroku.com/new?template=https://github.com/wueveieieowoqowiwheheheududgeueydyeg/hegeieiwowitt817wjevehdudhjegeheueiwowowgdhdusueh)***
 
-  <a aria-label="Join our chats" href="https://www.youtube.com/@YourPenPal" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
- 
-  <a aria-label="Secktor is free to use" href="https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE" target="_blank">
-    <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
-  </a>
-</p>
-
- 
----
-
-<p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
-
-  <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
- 
- ***<p align="center"> Support us by subscribing our channel </p>***
- 
-   <p align="center">  
-  <a href="https://youtu.be/It-Ak-aSx0c">
-    <img alt="secktor docs" height="300" src="https://t3.ftcdn.net/jpg/03/00/38/90/360_F_300389025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg">
-    <h1 align="center">Tap on above Image</h1>
-  </a>
-</p>
- 
- 
-- Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
-## Deployment Methods
----
-1. ***Get [SESSION-ID](https://citel-x.herokuapp.com/id) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
-2.  ***Get a Mongodb uri from [Mongodb](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
-
-
-***Free Mongodb URI,LOL***
-```
-mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
-```
-3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
-## Heroku Deployment Method
-4.  ***Deploy on [Heroku](https://citel-x.herokuapp.com/heroku)***
-## Koyeb Deployment Method
-5. ***[Deploy on Koyeb](https://citel-x.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
-
-***Also Deploy on [Replit]( https://repl.it/github/SamPandey001/Secktor-Md)***
-
-6.  ***[Deploy on Railway](https://citel-x.herokuapp.com/railway)***
-
-7. ***[Deploy on MOGENIOUS](https://github.com/SamPandey001/Secktor-Md/wiki/Deploy-on-MOGENIOUS)***
   
-8. ***Deploy in [Linux](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux)***
 
-9. if you get error in doing above try, [Deploy on VPS or PC.](https://github.com/SamPandey001/Secktor-Md/blob/main/deploy-on-vps.md)
+ 
+  <p align="center">  
+  <a href="https://telegra.ph/file/8410134d376d87fbd72aa.jpg">
+    <img alt="secktor docs" height="300" src="https://telegra.ph/file/8410134d376d87fbd72aa.jpg">
+    <h1 align="center"> ZERO_TWO-MD </h1>
+  </a>
+ 
+### `—◉ 🤖 رقم المطور 🤖`
+
+<a href="https://api.whatsapp.com/send/?phone=971553527240&text=عمي لايت&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/ZERO_TWO_OWNER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+### `—◉ 💟 قروب الدعم 💟`
+
+<a href="https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX" target="blank"><img src="https://img.shields.io/badge/𝗭𝗘𝗥𝗢_𝗧𝗪𝗢_𝐒𝐔𝐏𝐏𝐎𝐑𝐓(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX" target="blank"><img src="https://img.shields.io/badge/𝗭𝗘𝗥𝗢_𝗧𝗪𝗢_𝗖𝗛𝗔𝗧(عربي)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+
+##
+***عمل [`فورك`](https://github.com/Raizel-2023/RAIZEL_BOT/fork)***
+##
+
+`ثم عمل سكان للباركود`
+
+<a href="https://replit.com/@48x4qn4tv2/ZEROTWO-Md?v=1"><img src="https://repl.it/badge/github/quiec/whatsAlfa" width="200" />
+</a>
+#### بعد تصوير الباركود قم برفع الملف علي الاسكريبت وقم بالضغط علي زر التنصيب علي هيروكو`
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/wueveieieowoqowiwheheheududgeueydyeg/hegeieiwowitt817wjevehdudhjegeheueiwowowgdhdusueh)
+##
+
 ---
-10. More info about [Secktor](https://citel-x.herokuapp.com/).
-11. Deploy tutorial [Youtube Video](https://citel-x.herokuapp.com/youtube).
+```
+mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority
+```
+---
 
-12. SUPPORT GROUP: <a href="https://chat.whatsapp.com/DG86OkvmerHKHJjkE5X2Wv"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
-
-- Star ⭐ repo if you like Secktor.
-### Thanks To
-
-- [Yusuf Usta](https://github.com/yusufusta) for Ideas
-
-## License
-
-The Secktor is made available under the [GPL-3 license](https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE). 
