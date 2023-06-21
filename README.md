@@ -34,7 +34,7 @@
 
 ---
 ```
-mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority
+المطور رايزل جورج
 ```
 ---
 
