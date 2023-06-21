@@ -14,10 +14,8 @@
  const ty = eco.connect(mongodb);
 cmd(
   {
-    pattern: "delttt",
-    desc: "deletes TicTacToe running session.",
+    pattern: "حذفها",
     filename: __filename,
-    category: "game",
   },
   async (Void,citel,text,{isCreator}) => {
         if (!citel.isGroup) return citel.reply(tlang().group);
@@ -25,7 +23,7 @@ cmd(
         const participants = citel.isGroup ? await groupMetadata.participants : "";
         const groupAdmins = await getAdmin(Void, citel)
         const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-        if(!isAdmins && !isCreator) return citel.reply('This command is only for Group Admin and my owner.')
+        if(!isAdmins && !isCreator) return citel.reply('هذا الامر خاص بالمشرفين او المطور')
          this.game = this.game ? this.game : false
          if (
         Object.values(this.game).find(
@@ -34,19 +32,17 @@ cmd(
         )
       ) {
         delete this.game
-        return citel.reply(`_Successfully Deleted running TicTacToe game._`);
+        return citel.reply(`تم حذف الجولة`);
         } else {
-              return citel.reply(`No TicTacToe game🎮 is running.`)
+              return citel.reply(`ما في جولة اصلا`)
                     
         }
   })
   
 cmd(
   {
-    pattern: "ttt",
-    desc: "Play TicTacToe",
+    pattern: "اكس",
     filename: __filename,
-    category: "game",
   },
   async (Void,citel,text) => {
     if (!citel.isGroup) return citel.reply(tlang().group);
@@ -61,7 +57,7 @@ cmd(
             [room.game.playerX, room.game.playerO].includes(citel.sender)
         )
       )
-        return citel.reply("_A game is already going on_");
+        return citel.reply("اللعبة جارية بالفعل");
       let room = Object.values(this.game).find(
         (room) =>
           room.state === "WAITING" && (text ? room.name === text : true)
@@ -86,8 +82,8 @@ cmd(
           }[v];
         });
         let str = `
-Current turn: @${room.game.currentTurn.split("@")[0]}
-Room ID: ${room.id}
+        دورك @${room.game.currentTurn.split("@")[0]}
+${room.id}
 ${arr.slice(0, 3).join("  ")}
 ${arr.slice(3, 6).join("  ")}
 ${arr.slice(6).join("  ")}
@@ -106,7 +102,7 @@ ${arr.slice(6).join("  ")}
           state: "WAITING",
         };
         if (text) room.name = text;
-        citel.reply("_Waiting for player,use .ttt to join this game._ ");
+        citel.reply("ننتظر يجي لاعب اخر، اكتب .اكس للمشاركة ");
         this.game[room.id] = room;
       }
     }
@@ -136,7 +132,7 @@ cmd(
       let isWin = !1;
       let isTie = !1;
       let isSurrender = !1;
-      if (!/^([1-9]|(me)?give_up|surr?ender|off|skip)$/i.test(citel.text)) return;
+      if (!/^([1-9]|(me)?give_up|surr?ender|استسلم|skip)$/i.test(citel.text)) return;
       isSurrender = !/^[1-9]$/.test(citel.text);
       if (citel.sender !== room.game.currentTurn) {
         if (!isSurrender) return !0;
@@ -151,10 +147,10 @@ cmd(
       ) {
         citel.reply(
           {
-            "-3": "The game is over.",
-            "-2": "Invalid",
-            "-1": "_Invalid Position_",
-            0: "_Invalid Position_",
+            "-3": "انتهت اللعبة.",
+            "-2": "غير صالح",
+            "-1": "موقف غير صحيح",
+            0: "موقف غير صحيح",
           }[ok]
         );
         return !0;
@@ -181,17 +177,17 @@ cmd(
         isWin = true;
       }
       let winner = isSurrender ? room.game.currentTurn : room.game.winner;
-      let str = `Room ID: ${room.id}
+      let str = ` ${room.id}
       
 ${arr.slice(0, 3).join("  ")}
 ${arr.slice(3, 6).join("  ")}
 ${arr.slice(6).join("  ")}
 ${
   isWin
-    ? `@${winner.split("@")[0]} Won ! and got 2000💎 in wallet🤑`
+    ? `@${winner.split("@")[0]} فاز/ت 🎖️`
     : isTie
-    ? `Game Tied,well done to both of you players.`
-    : `Current Turn ${["❌", "⭕"][1 * room.game._currentTurn]} @${
+    ? `تعادل ، احسنتما الاثنين 👏`
+    :`دورك ${["❌", "⭕"][1 * room.game._currentTurn]} @${
         room.game.currentTurn.split("@")[0]
       }`
 }
@@ -201,11 +197,17 @@ ${
       if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== citel.chat)
         room[room.game._currentTurn ^ isSurrender ? "x" : "o"] = citel.chat;
         if(isWin){
-        await eco.give(citel.sender, "secktor", 2000);
+        await eco.give(citel.sender, "JEJE", 2000);
         }
       if (isWin || isTie) {
         await Void.sendMessage(citel.chat, {
           text: str,
+          buttons: [
+            {
+              buttonId: `${prefix}اكس`,
+              buttonText: { displayText: "اللعب مرة اخرى" },
+            },
+          ],
           mentions: [room.game.playerO,room.game.playerX],
         });
       } else {
@@ -221,7 +223,7 @@ ${
   }
 );
 
-cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
+cmd({ pattern: "شبيهي" , category: "fun" }, async(Void, citel, text) => {
     const { tlang } = require('../lib')
    if (!citel.isGroup) return citel.reply(tlang().group);
    const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
@@ -231,15 +233,15 @@ cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
     async function couple(percent) {
          var text;
         if (percent < 25) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\tThere's still time to reconsider your choices`
+            text = `\t\t\t\t\t*النسبه : ${percentage}%* \n\t\tما تصلحون لبعض للأسف`
         } else if (percent < 50) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t Good enough, I guess! 💫`
+            text = `\t\t\t\t\t*النسبه : ${percentage}%* \n\t\t اختيار موفق! 💫`
         } else if (percent < 75) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t\tStay together and you'll find a way ⭐️`
+            text = `\t\t\t\t\t*النسبه : ${percentage}%* \n\t\t\tوشرايكم تصبحون اصدقاء ⭐️`
         } else if (percent < 90) {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tAmazing! You two will be a good couple 💖 `
+            text = `\t\t\t\t\t*النسبه : ${percentage}%* \n\tمدهش,انتما الاثنين ستكونا زوجان رائعان 💖 `
         } else {
-            text = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tYou two are fated to be together 💙`
+            text = `\t\t\t\t\t*النسبه : ${percentage}%* \n\tولدتو لبعض انتو 💙`
         }
         return text
         }
@@ -250,12 +252,12 @@ cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
        } else {
        shiper = members[Math.floor(Math.random() * members.length)]
        }
-       let caption = `\t❣️ *Matchmaking...* ❣️ \n`
-        caption += `\t\t✯────────────────────✯\n`
+       let caption = `\t*｢نسبة الشبه بينكم｣* \n`
+        caption += `\t\t✯──────────✯\n`
         caption += `@${citel.sender.split('@')[0]}  x  @${shiper.split('@')[0]}\n`
-        caption += `\t\t✯────────────────────✯\n`
+        caption += `\t\t✯──────────✯\n`
         caption += await couple(percentage)
-        if(citel.sender.split('@')[0]===shiper.split('@')[0]) return citel.reply('```'+'Wait... What!!!,You wanna do matchmaking with yourself'+'```')
+        if(citel.sender.split('@')[0]===shiper.split('@')[0]) return citel.reply('```'+'تستغبي يحمار؟'+'```')
         await Void.sendMessage(citel.chat,{text: caption,mentions: [citel.sender,shiper]},{quoted:citel})
    }
 )
