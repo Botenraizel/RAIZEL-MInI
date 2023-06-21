@@ -1,6 +1,6 @@
 {
-  "name": "ZERO TWO-Md By LIGHT",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better\n\t if Any Problem : https://chat.whatsapp.com/EZe0MlgU0xo8GXtkCpqS0M",
+  "name": "RAIZEL MINI-Md By RAIZEL",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better\n\t if Any Problem : https://chat.whatsapp.com/Gq8IPcT52JTLBb4QobQTJt",
   "logo": "https://telegra.ph/file/8410134d376d87fbd72aa.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "ZERO-TWO", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
   "success_url": "/",
@@ -8,16 +8,16 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "زيرو تو"
+      "value": "بوت رايزل"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "value": "•.•:•.•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•:•\n مرحبا بك في بوت لايت \n•.•:•.•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•:•\n\n* لعرض الاوامر اكتب .اوامر* \n*صنع بواسطة:لايت*\nالمطور : wa.me/971553527240 \n الدعم: https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX",
+     "value": "•.•:•.•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•:•\n مرحبا بك في بوت رايزل \n•.•:•.•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•:•\n\n* لعرض الاوامر اكتب .اوامر* \n*صنع بواسطة:رايزل*\nالمطور : wa.me/967770500831 \n الدعم: https://chat.whatsapp.com/Gq8IPcT52JTLBb4QobQTJt",
      "required" :false
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://i.imgur.com/gRLQ3lY.jpg"
+     "value": "https://i.imgur.com/PF20hsK.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -55,7 +55,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "971553527240"
+       "value": "967770500831"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Md "
@@ -76,7 +76,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "ZERO"
+     "value": "RAIZEL"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -89,7 +89,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "; 𝗭𝗘𝗥𝗢_𝗧𝗪𝗢_𝗕𝗢𝗧/+971553527240",
+     "value": "; بوت رايزل ميني,سورس رايزل العتيق",
      "required": false 
   }
 },
